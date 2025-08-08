@@ -1,0 +1,5 @@
+fastapi
+thefuzz
+pydantic
+uvicorn
+gunicorn
