@@ -10,7 +10,7 @@ from typing import List
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://project-detect-lovat.vercel.app/"],  # You can restrict to ["http://localhost:3000"] for more security
+    allow_origins=["https://project-detect-lovat.vercel.app"],  # No trailing slash
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
