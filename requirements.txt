@@ -3,3 +3,7 @@ thefuzz
 pydantic
 uvicorn
 gunicorn
+python-dotenv
+pinecone
+sentence-transformers
+torch
